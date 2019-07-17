@@ -4,7 +4,7 @@ const port = process.env.PORT || 1337;
 http
   .createServer(function(req, res) {
     res.writeHead(200, { "Content-Type": "text/plain" });
-    res.end("Hello Travis!\n");
+    res.end("Hello Travis Example!\n");
   })
   .listen(1337, "0.0.0.0");
 
